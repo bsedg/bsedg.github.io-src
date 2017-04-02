@@ -1,0 +1,13 @@
+languageCode = "en-us"
+title = "Sedgwick Tech Blog"
+baseURL = "https://bsedg.github.io/"
+copyright = "Copyright (c) 2017, Brandon Sedgwick."
+
+[permalinks]
+    post = "/:year/:month/:slug"
+
+[Params]
+  Author = "Brandon Sedgwick"
+  bio = "Software Engineer"
+  disqusShortname = "bsedg"
+  googleAnalytics = "UA-51270495-2"
