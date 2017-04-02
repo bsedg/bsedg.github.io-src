@@ -16,8 +16,8 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - leipert/git-push:
-        branch: master
+        branch: gh-pages
         gh_token: $GIT_TOKEN
-        repo: bsedg.github.io
+        repo: bsedg/bsedg.github.io
         token: $GIT_TOKEN
         basedir: public
