@@ -11,3 +11,11 @@ build:
         version: "0.19"
         theme: hugo_theme_robust
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: bsedg.github.io
+        basedir: public
