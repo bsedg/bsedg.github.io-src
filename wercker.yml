@@ -8,6 +8,6 @@ build:
         code: |
             $(git clone https://github.com/dim0627/hugo_theme_robust ./themes/hugo_theme_robust)
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.19"
         theme: hugo_theme_robust
         flags: --buildDrafts=true
