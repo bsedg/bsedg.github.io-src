@@ -3,6 +3,7 @@ date = "2017-04-03T19:13:42-04:00"
 title = "hello world"
 draft = false
 tags = [ "golang", "docker" ]
+categories = [ "getting-started" ]
 +++
 
 # Introduction
