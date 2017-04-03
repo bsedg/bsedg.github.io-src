@@ -12,17 +12,11 @@ build:
         theme: hugo_theme_robust
         flags: --buildDrafts=true
 deploy:
-  steps:
-    - script:
-        name: ls output
-        code: |
-          ls -haltr /pipeline/output
-    - script:
-        name: ls source
-        code: |
-          ls -haltr /pipeline/source
-    - install-packages:
-        packages: git ssh-client liberror-perl
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        basedir: public
+    steps:
+        - install-packages:
+            packages: git ssh-client
+        - leipert/git-push:
+            gh_oauth: $GIT_TOKEN
+            repo: bsedg/bsedg.github.io
+            branch: master
+            basedir: public
