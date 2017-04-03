@@ -1,14 +1,8 @@
 box: debian
 build:
   steps:
-    - install-packages:
-        packages: git
-    - script:
-        name: download theme
-        code: |
-            $(git clone https://github.com/dim0627/hugo_theme_robust ./themes/hugo_theme_robust)
     - arjen/hugo-build:
-        version: "0.19"
+        version: "HEAD"
         theme: hugo_theme_robust
         flags: --buildDrafts=true
 deploy:

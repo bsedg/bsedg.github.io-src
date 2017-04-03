@@ -2,6 +2,9 @@ languageCode = "en-us"
 title = "Sedgwick Tech Blog"
 baseURL = "https://bsedg.github.io/"
 copyright = "Copyright (c) 2017, Brandon Sedgwick."
+theme = "hugo_theme_robust"
+disqusShortname = "bsedg"
+googleAnalytics = "UA-51270495-2"
 
 [permalinks]
     post = "/:year/:month/:slug"
@@ -9,5 +12,4 @@ copyright = "Copyright (c) 2017, Brandon Sedgwick."
 [Params]
   Author = "Brandon Sedgwick"
   bio = "Software Engineer"
-  disqusShortname = "bsedg"
-  googleAnalytics = "UA-51270495-2"
+  

@@ -2,7 +2,6 @@
 date = "2017-04-02T13:43:14-04:00"
 title = "intro"
 draft = false
-image = "default.jpg"
 +++
 
 # Introduction
