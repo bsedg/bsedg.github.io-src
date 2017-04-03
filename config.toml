@@ -7,7 +7,7 @@ disqusShortname = "bsedg"
 googleAnalytics = "UA-51270495-2"
 
 [permalinks]
-    post = "/:year/:month/:slug"
+    posts = "/posts/:year/:month/:slug"
 
 [Params]
   Author = "Brandon Sedgwick"
