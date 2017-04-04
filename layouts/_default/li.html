@@ -2,14 +2,15 @@
   <a href="{{ .Permalink }}" class="clearfix">
     <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
     <div class="detail">
-      <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+      <sub>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</sub>
       <h2 class="title">{{ .Title }}</h2>
-      <div class="summary">{{ .Summary }}</div>
-      {{ if .Truncated }}
-      <div class="read-more-link">
-        <a href="{{ .RelPermalink }}">Read More…</a>
+      <div class="summary">{{ .Summary }}
+        {{ if .Truncated }}
+        <div class="read-more-link">
+          <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
   </a>
 </article>
