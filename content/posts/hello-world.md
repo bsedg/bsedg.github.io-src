@@ -9,6 +9,10 @@ categories = [ "getting-started" ]
 # Introduction
 Hello, world!
 
+Any step to a new language or technology typically involves a 'Hello, World' application... here's mine.
+
+<!--more-->
+
 One of the simpler introductory hello world implementations is with Docker.
 ```bash
 docker run hello-world
