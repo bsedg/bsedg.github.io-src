@@ -1,12 +1,12 @@
 +++
 title = "Continuous Delivery Introduction"
-draft = true
+draft = false
 date = "2017-04-03T20:09:27-04:00"
 tags = [ "agile" ]
 categories = [ "getting-started", "continuous-delivery", "continuous-integration", "agile" ]
 +++
 
-# Overview 
+# Overview
 
 Continuous delivery along with continuous integration supports the key fundamentals of software development using the agile methodology.
 
@@ -16,11 +16,11 @@ Continuous delivery is the ability to produce new software to the end user at an
 
 ## Related to the Agile Manifesto
 
-From http://agilemanifesto.org, continuous delivery is the first principle of the agile manifesto being labeled as the "highest priority". 
+From http://agilemanifesto.org, continuous delivery is the first principle of the agile manifesto being labeled as the "highest priority".
 
 > Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-Very closely to that principle is deliverying working software in shorter timescales, which is enabled by the ability of continuous delivery. 
+Very closely to that principle is deliverying working software in shorter timescales, which is enabled by the ability of continuous delivery.
 
 > Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
 
@@ -32,7 +32,7 @@ Hand in hand with continuous delivery, continuous integration helps ensure the s
 
 Continuous integration can be broken down to being continually integrating your code with the main branches in the code base, other services that are depended upon, backing services like databases and queues, and many forms of testing. Testing should be done with unit testing, integration testing, stress testing, functional testing, etc. Software should be written with tests as first class citizens, where you use a test first approach.
 
-## Sample development flow 
+## Sample development flow
 
 In an ideal development experience of software development with continuous integration, delivery:
 
@@ -61,7 +61,7 @@ Other solutions are more tightly integrated into a particular platform, like whe
 4. Google Cloud Platform [cloud.google.com](https://cloud.google.com)
 5. AWS Code Pipeline [AWS codepipeline](https://aws.amazon.com/codepipeline)
 
-Then a couple to point out that are nice, complete solutions with good flexibility. 
+Then a couple to point out that are nice, complete solutions with good flexibility.
 
 1. Visual Studio Team Services [visualstudio.com](https://www.visualstudio.com/team-services/)
 2. Jenkins [jenkins.io](https://jenkins.io/)

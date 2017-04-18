@@ -1,9 +1,11 @@
----
-date:        "2013-04-17T11:27:27-04:00"
-title:       "Travis CI Walkthrough"
-tags:        [ "nodejs", "swagger" ]
-topics:      [ "continuous-integration" ]
----
++++
+title = "Travis CI Walkthrough"
+draft = false
+date = "2017-04-17T20:09:27-04:00"
+tags = [ "nodejs", "swagger" ]
+categories = [ "continuous-delivery", "continuous-integration", "agile" ]
+image = "hard_hat.jpg"
++++
 
 # Travis CI
 
